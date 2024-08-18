@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Activity.AddDBMoviesPageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Chọn thể loại (*)"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spnType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edt"
+                android:backgroundTint="@null"
+                android:gravity="center" />
+
+            <EditText
+                android:id="@+id/edtAddNameMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:hint="Tên phim..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <EditText
+                android:id="@+id/edtAddNameActor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:hint="Tên diễn viên..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <EditText
+                android:id="@+id/edtAddNameDirector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:hint="Tên đạo diễn..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtAddDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:hint="Mô tả..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtAddDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:hint="Khởi chiếu..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtAddTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:layout_marginBottom="15dp"
+                android:hint="Thời Lượng..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Chọn ảnh phim (*)"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edt"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/spnLinkImage"/>
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Chọn banner phim (*)"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edt"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/spnLinkBannerPhim"/>
+
+
+            <EditText
+                android:id="@+id/edtAddLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edt"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:hint="Ngôn Ngữ..."
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edtAddAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edt"
+                android:ems="10"
+                android:hint="Kiểm duyệt"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_button"
+                android:text="thêm"
+                android:textSize="16dp"
+                android:onClick="btnThemVoDatabase_onClick"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

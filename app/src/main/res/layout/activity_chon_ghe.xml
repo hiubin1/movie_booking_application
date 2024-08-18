@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Activity.ChonGheActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/custom_hem"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Màn Hình Chính"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_screen"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toEndOf="@+id/tableSeat"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="A"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13dp"
+                        android:text="B"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:text="C"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:text="D"
+                        android:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:id="@+id/tableSeat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:id="@+id/seatA"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:textAlignment="center">
+
+                        <CheckBox
+
+                            android:id="@+id/seatA1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatA10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/seatB"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:textAlignment="center">
+
+                        <CheckBox
+                            android:id="@+id/seatB1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatB10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/norseats" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/seatC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:textAlignment="center">
+
+                        <CheckBox
+                            android:id="@+id/seatC1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatC10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/seatD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textAlignment="center">
+
+                        <CheckBox
+                            android:id="@+id/seatD1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                        <CheckBox
+                            android:id="@+id/seatD10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/checkbox_selected"
+                            android:button="@drawable/vipseats" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tableSeat"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:text="1"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"
+                        android:text="2"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:text="3"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"
+                        android:text="4"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="23dp"
+                        android:text="5"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:text="6"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:text="7"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="23dp"
+                        android:text="8"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:text="9"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:text="10"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/norseats"
+                    android:drawablePadding="5dp"
+                    android:text="Giá vé thường: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvSetPriceNor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="120000đ"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/vipseats"
+                    android:drawablePadding="5dp"
+                    android:text="Giá vé VIP: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvSetPriceVip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="200000đ"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:background="@drawable/custom_button"
+            android:onClick="btnThanhToan_onclick"
+            android:text="Thanh Toán"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvhoten"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvsdt"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvtenphim"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvrapphim"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvphongphim"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvdinhdangphim"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvgiochiue"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvngaydat"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

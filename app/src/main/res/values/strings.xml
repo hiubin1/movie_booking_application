@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HBcinemaPJ</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_news">News</string>
+    <string name="title_booking">Movies</string>
+    <string name="title_histicktes">History</string>
+    <string name="title_profile">Profile</string>
+
+
+    <!-- Admin -->
+    <string name="title_addphim">Home</string>
+    <string name="title_addnews">News</string>
+    <string name="title_adminhisory">History</string>
+    <string name="title_adminprofile">Admin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

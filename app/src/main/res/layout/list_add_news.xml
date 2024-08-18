@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/AddlayoutNews_item"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="40dp"
+
+        app:cardPreventCornerOverlap="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bgBottomNavigation"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/AddNewsImage"
+                android:layout_width="401.5dp"
+                android:layout_height="183dp"
+                app:srcCompat="@drawable/news3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/tvNewsName"
+                        android:textStyle="italic|bold"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BỘ SƯU TẬP HOT FOOD K-TASTE MỚI TỪ HBs" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#64DD17"
+                        android:textStyle="bold"
+                        android:text="Ngày đăng: " />
+
+                    <TextView
+                        android:id="@+id/tvNewsDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textStyle="italic|bold"
+                        android:text="09/08/2019" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#64DD17"
+                        android:textStyle="bold"
+                        android:text="Nội dung: " />
+
+                    <TextView
+                        android:id="@+id/tvNewsContent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textStyle="bold|italic"
+                        android:text="HBs trình làng BỘ SƯU TẬP HOT FOOD K-STATE mới nè!! " />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#64DD17"
+                        android:textStyle="bold"
+                        android:text="Rạp áp dụng: " />
+
+                    <TextView
+                        android:id="@+id/tvRapApDung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textStyle="italic|bold"
+                        android:text="HB cinema Quận 10 HB cinema Quận 5 HB cinema Quận Bình Thạnh" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

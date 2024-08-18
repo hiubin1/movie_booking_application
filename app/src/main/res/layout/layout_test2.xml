@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_MoviesTickets"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/layout_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgListMovie"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:srcCompat="@drawable/everthingeverwhere" />
+
+            <TextView
+                android:id="@+id/tvListName"
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/imgListMovie"
+                android:layout_alignEnd="@+id/layout_MoviesTickets"
+                android:layout_alignStart="@+id/layout_MoviesTickets"
+                android:gravity="center"
+                android:text="EVERYTHING EVERYWHERE ALL AT ONCE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/tvListType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvListName"
+                android:layout_alignEnd="@+id/layout_MoviesTickets"
+                android:layout_alignStart="@+id/layout_MoviesTickets"
+                android:gravity="center"
+                android:layout_marginEnd="65dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_c18"
+                android:text="C18"
+                android:textAlignment="center"
+                tools:ignore="NotSibling" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/layout_MoviesTickets"
+                android:layout_alignEnd="@+id/layout_MoviesTickets"
+                android:layout_below="@+id/tvListType"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:textAlignment="center"
+                tools:ignore="NotSibling">
+
+                <TextView
+                    android:id="@+id/tvListTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvListType"
+                    android:gravity="center"
+                    android:text="2giờ 19phút"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvListDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvListTime"
+                    android:text="17/03/2023"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

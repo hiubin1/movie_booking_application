@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ThongTinChiTietTinTucActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgNewsDetails"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="189dp"
+                app:srcCompat="@drawable/news3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvNewsNameDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="BỘ SƯU TẬP HOT FOOD K-TASTE MỚI TỪ HBs"
+                    android:textAlignment="center"
+
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDateNewsDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginBottom="10dp"
+                    android:text="09/08/2019"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvContentNewsDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="HBs trình làng BỘ SƯU TẬP HOT FOOD K-STATE mới nè!!\n Từ nay, các ''TÂM HỒN ĂN UỐNG'' lại có thêm lựa chọn mới khi xem phim nhé.\n TOPOKKI LẮC PHÔ MAI thơm lừng giòn rụm và TOPOKKI SỐT TƯƠNG ỚT TRUYỀN THỐNG đậm đà đã có mặt trong menu hot food của HBs.\n
+Đã vậy, còn rất nhiều hình dạng thú vị: bông hoa, ngôi sao, trái tim, ống trụ, tròn nè. Vừa ăn ngon lại vừa đẹp mắt nựa!\n Đến HBs, order ngay 1 phần và xem phim cuối tuần nào cả nhà ơi!!!"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edt"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="Danh Sách các rạp áp dụng:"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRapApDungDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="HB cinema quận 10 \nHB cinema quận Bình Thạnh \nHB cinema Quận 5"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

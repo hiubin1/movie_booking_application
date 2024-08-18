@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/title_home"
+        android:icon="@drawable/home64"/>
+
+    <item
+        android:id="@+id/nav_news"
+        android:title="@string/title_news"
+        android:icon="@drawable/news64"/>
+
+    <item
+        android:id="@+id/nav_booking"
+        android:title="@string/title_booking"
+        android:icon="@drawable/movie64"/>
+
+    <item android:id="@+id/nav_history"
+        android:title="@string/title_histicktes"
+        android:icon="@drawable/tickets64"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="@string/title_profile"
+        android:icon="@drawable/profile64"/>
+</menu>

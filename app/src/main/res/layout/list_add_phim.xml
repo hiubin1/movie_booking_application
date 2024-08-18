@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/AddlayoutPhim_item"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="40dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="#ccc"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/AddMovieImage"
+                android:layout_width="130dp"
+                android:padding="5dp"
+                android:background="@color/bgBottomNavigation"
+                android:layout_gravity="top"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/kamenrider" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bgBottomNavigation"
+            android:padding="6dp"
+            android:layout_marginLeft="130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAddMovieName"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="KAMEN RIDER: ĐẤU TRƯỜNG SINH TỬ"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thể loại:\t"
+                    android:textStyle="bold"
+                    android:textColor="#64DD17"
+                     />
+
+                <TextView
+                    android:id="@+id/txtAddMovieType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Hoạt Hình"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textStyle="italic|bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtAddMovieFormat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/custom_p"
+                android:text="P"
+                android:textStyle="bold"
+                android:textColor="#64DD17"
+                android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời Lượng:\t"
+                android:textStyle="bold"
+                android:textColor="#64DD17"
+                />
+
+            <TextView
+                android:id="@+id/txtAddMovieLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:maxLines="1"
+                android:text="1giờ 36phút"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày chiếu:\t"
+                    android:textStyle="bold"
+                    android:textColor="#64DD17"
+                    />
+
+                <TextView
+                    android:id="@+id/txtAddReleaseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:textStyle="bold|italic"
+                    android:text="03 thg 03 2023"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textview100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đạo diễn:\t"
+                    android:textStyle="bold"
+                    android:textColor="#64DD17"
+                    />
+
+                <TextView
+                    android:id="@+id/txtAddDirector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Takayuki Shibasaki"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold|italic"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/textview101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diễn viên:\t"
+                    android:textStyle="bold"
+                    android:textColor="#64DD17"
+                    />
+
+                <TextView
+                    android:id="@+id/txtAddActors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold|italic"
+                    android:text="Kentaro Maeda, Subaru Kimura, Hideyoshi Kan, Takamasa Suga, Satoshi Matsuda"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview102"
+                    android:text="Ngôn ngữ:\t"
+                    android:textStyle="bold"
+                    android:textColor="#64DD17"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddLanguage"
+                    android:text="Tiếng Nhật - Phụ đề Tiếng Việt"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:textStyle="bold|italic"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nội dung:\t"
+                    android:textStyle="bold"
+                    android:textColor="#64DD17"
+                    />
+
+                <TextView
+                    android:id="@+id/txtAddMovieDesrciption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineHeight="20dp"
+                    android:maxLines="1"
+                    android:textStyle="bold|italic"
+                    android:text="Nội dung phim: Đấu Trường Sinh Tử kể về khi mùa mới của Desire Grand Prix - giải đấu sinh tồn có thể hiện thực hóa bất kì điều ước của người chiến thắng - bất ngờ bị một thế lực bí ẩn nắm quyền, Kamen Rider Geats cùng những người chơi quen thuộc của giải đấu này đều bị cuốn vào chuỗi những trò chơi tồi tệ nhất, đồng thời họ còn phải chạm trán với nhóm người chơi mới của Kamen Rider Revice và các Kamen Rider huyền thoại khác."
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

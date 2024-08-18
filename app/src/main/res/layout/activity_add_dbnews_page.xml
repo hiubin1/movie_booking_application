@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.AddDBNewsPageActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Thêm Tin Tức"-->
+<!--            android:background="@drawable/custom_button"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:padding="10dp"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textAlignment="center"/>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtAddNewsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Tên Tin Tức..."
+                android:background="@drawable/custom_edt"/>
+
+            <EditText
+                android:id="@+id/edtAddNewsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nội dung Tin Tức..."
+                android:background="@drawable/custom_edt"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/edtAddNewsUploadDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Ngày đăng tin tức..."
+                android:background="@drawable/custom_edt"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:id="@+id/edtAddNewsRapApDung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Rạp áp dụng..."
+                android:background="@drawable/custom_edt"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/textView100000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Chọn ảnh tin tức (*)"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edt"
+
+                android:id="@+id/spnLinkBanner"/>
+
+            <Button
+                android:id="@+id/btnAddNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thêm"
+                android:onClick="btnThemTinTucVoDB_onclick"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/white"
+                android:layout_margin="15dp"
+                android:textSize="16dp"
+                tools:ignore="OnClick" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

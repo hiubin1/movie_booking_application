@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_AddPhim"
+        android:icon="@drawable/home64"
+        android:title="@string/title_addphim"/>
+
+    <item
+        android:id="@+id/nav_AddNews"
+        android:icon="@drawable/news64"
+        android:title="@string/title_addnews"/>
+
+    <item
+        android:id="@+id/nav_AdminHistory"
+        android:icon="@drawable/tickets64"
+        android:title="@string/title_adminhisory"/>
+
+    <item
+        android:id="@+id/nav_AdminProfile"
+        android:icon="@drawable/profile64"
+        android:title="@string/title_adminprofile"/>
+
+
+
+
+</menu>
